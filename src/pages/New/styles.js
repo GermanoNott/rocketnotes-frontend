@@ -1,4 +1,4 @@
-import styled from 'styled-components'
+import styled from 'styled-components';
 
 export const Container = styled.div`
     width: 100%;
@@ -18,7 +18,7 @@ export const Container = styled.div`
         justify-content: space-between;
         flex-wrap: wrap;
     }
-`
+`;
 export const Form = styled.form`
     max-width: 550px;
     margin: 38px auto;
@@ -28,9 +28,9 @@ export const Form = styled.form`
         justify-content: space-between;
         margin-bottom: 36px;
 
-        a {
+        button {
             font-size: 20px;
             color: ${({ theme }) => theme.COLORS.GRAY_100};
         }
     }
-`
+`;
